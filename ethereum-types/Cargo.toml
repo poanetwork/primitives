@@ -12,7 +12,7 @@ ethbloom = { path = "../ethbloom", version = "0.6", default-features = false }
 ethereum-types-serialize = { version = "0.2.2", path = "../serialize", optional = true }
 fixed-hash = { version = "0.3", default_features = false }
 serde = { version = "1.0", optional = true }
-uint = { version = "0.5", default_features = false }
+uint = { git = "https://github.com/paritytech/parity-common.git", revision = "8ebc5c85c2ba606e40525853829c5047499cc5fb", default_features = false }
 
 [dev-dependencies]
 serde_json = "1.0"
